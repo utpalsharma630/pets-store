@@ -7,6 +7,8 @@
     <!-- daisy ui cdn -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- font family cdn-->
      <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +24,31 @@
 </head>
 <body>
     <header>
-        
+        <!-- navbar -->
+         <nav class="bg-[#FFF9F4] font-sora ">
+            <div class="container mx-auto py-7 flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                    <img class="w-7" src="c1-assets/logo-header.png" alt="">
+                    <h2 class="text-2xl text-[#111111] ">Browse<span class="text-[#FFDC26]">4</span>Pets</h2>
+                </div>
+                <div class="hidden lg:block">
+                    <ul class="flex gap-8  text-xl ">
+                        <li><a href="">Find a pet</a></li>
+                        <li><a href="">Breeds</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="flex gap-3 items-center hidden md:block">
+                    <i class="fa-solid fa-bell text-2xl"></i>
+                    <i class="fa-solid fa-magnifying-glass text-2xl"></i>
+                    <button class="btn bg-[#FFDC26] hover:bg-[#FFF9F4] border-orange-200">Login</button>
+                    <button class="btn bg-[#FFDC26] hover:bg-[#FFF9F4] border-orange-200">Register</button>
+                </div>
+                <div class="md:hidden">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+         </nav>
     </header>
     <main>
 
